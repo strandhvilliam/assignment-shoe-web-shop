@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/assignment-shoe-web-shop.iml" filepath="$PROJECT_DIR$/.idea/assignment-shoe-web-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-backend-server/java-backend-server.iml" filepath="$PROJECT_DIR$/java-backend-server/java-backend-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nodejs-ts-frontend.iml" filepath="$PROJECT_DIR$/nodejs-ts-frontend.iml" />
+    </modules>
+  </component>
+</project>

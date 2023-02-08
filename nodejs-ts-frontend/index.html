@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/coc1tut.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="dist/script.js" defer></script>
+    <title>JAVASHOPPER</title>
+</head>
+<body>
+<div class="overlay"></div>
+<header class="header">
+
+    <div class="header__item">
+        <h1 class="header__title">JAVASHOPPER</h1>
+    </div>
+    <nav class="header__item">
+        <ul class="header__nav">
+            <li class="header__nav-item">
+                <button id="all-btn" class="header__btn--nav" type="button">All</button>
+            </li>
+            <li class="header__nav-item">
+                <button id="category-btn" class="header__btn--nav" type="button">Categories</button>
+            </li>
+            <li class="header__nav-item">
+                <button id="color-btn" class="header__btn--nav" type="button">Color</button>
+            </li>
+        </ul>
+
+    </nav>
+    <div class="header__item">
+        <span id="customer-name" class="header__user">Firstname Lastname</span>
+        <button id="cart-btn" class="header__btn btn" type="button">
+            Cart<i class="fa-solid fa-cart-shopping"></i>
+        </button>
+    </div>
+</header>
+
+<section class="menu">
+    <ul id="categories__menu" class="menu__container hidden"></ul>
+    <ul id="colors__menu" class="menu__container hidden"></ul>
+</section>
+
+<section class="shop">
+    <div class="cart hidden">
+        <h2 class="cart__title"><i class="fa-solid fa-cart-shopping"></i>Your Cart</h2>
+        <div class="cart__products">
+        </div>
+
+        <div class="cart__total">
+            <h3 class="cart__total-title">Total amount:</h3>
+            <p class="cart__total-price">0 SEK</p>
+        </div>
+        <button class="cart__btn btn" type="button">Place Order!</button>
+    </div>
+    <h2 class="shop__title">All</h2>
+    <div id="content" class="shop__products"> <!--grid-->
+    </div>
+</section>
+
+<section class="login">
+    <div class="login__container">
+        <button id="report-btn" class="login__report btn">Show Reports</button>
+        <h2 class="login__title">Login</h2>
+        <form class="login__form">
+            <input class="login__input" type="email" id="email-input" name="email" placeholder="Email">
+            <input class="login__input" type="password" id="password-input" name="password" placeholder="Password">
+            <button id="login-btn" class="login__btn btn" type="button">Go!</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer__item">
+        <h3 class="footer__title">JAVASHOPPER</h3>
+    </div>
+    <div class="footer__item">
+        <ul class="footer__list">
+            <li class="footer__item-title"><a>About</a></li>
+            <li class="footer__item-text"><a>About us</a></li>
+            <li class="footer__item-text"><a>Contact</a></li>
+            <li class="footer__item-text"><a>FAQ</a></li>
+        </ul>
+
+    </div>
+</footer>
+
+</body>
+</html>
